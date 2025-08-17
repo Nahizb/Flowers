@@ -23,7 +23,6 @@ h1 {
 
 }
 
-
 /* Casilla central */
 .container {
     background-color: #FFA1AD;
@@ -63,3 +62,28 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+/* Estilos para dispositivos móviles con ancho máximo 600px */
+@media only screen and (max-width: 600px) {
+    .container {
+      width: 90%;       /* Que el contenedor ocupe casi todo el ancho */
+      padding: 20px;    /* Menos padding para dispositivos pequeños */
+      margin-top: 40px; /* Ajustar margen */
+    }
+  
+    h1 {
+      font-size: 1.5rem;  /* Texto más pequeño */
+      padding: 15px 10px;
+    }
+  
+    input,
+    button,
+    p {
+      font-size: 14px;
+    }
+  
+    body {
+      background-size: cover; /* Que la imagen de fondo se ajuste mejor */
+    }
+  }
+  
