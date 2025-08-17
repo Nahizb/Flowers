@@ -66,7 +66,7 @@ button:hover {
 /* Estilos para dispositivos móviles con ancho máximo 600px */
 @media only screen and (max-width: 600px) {
     .container {
-      width: 90%;       /* Que el contenedor ocupe casi todo el ancho */
+      width: 60%;       /* Que el contenedor ocupe casi todo el ancho */
       padding: 20px;    /* Menos padding para dispositivos pequeños */
       margin-top: 40px; /* Ajustar margen */
     }
