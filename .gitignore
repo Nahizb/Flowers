@@ -1,0 +1,7 @@
+# Ignorar archivos innecesarios
+*.odt
+*~lock*
+.DS_Store
+node_modules/
+dist/
+.env
